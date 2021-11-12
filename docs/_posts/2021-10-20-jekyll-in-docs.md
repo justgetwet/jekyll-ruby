@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Jekyll"
+title: "Jekyll in the docs"
 ---
 
 ### Jekyllとは

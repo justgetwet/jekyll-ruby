@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Jekyll"
+title: "Jekyll theme"
 ---
 
 ### Jekyllとは
