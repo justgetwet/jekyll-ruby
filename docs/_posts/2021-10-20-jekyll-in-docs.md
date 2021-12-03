@@ -37,8 +37,27 @@ gem "wdm", ">= 0.1.0" if Gem.win_platform?
 
 docs直下に、_config.yml、index.md、404.md をコピーする
 
+```shell
+ruby redshotinit.rb
+
+```
+
+```yml
+# _config.yml
+url: "https://justgetwet.github.io"
+baseurl: "/something"
+title: "Something"
+github_username: "Akira"
+
+theme: redshot
+remote_theme: justgetwet/redshott
+
+```
+
+
 ```yml
 # .gitignore
+__pycache__
 docs/_site
 docs/.jekyll-cache
 docs/vendor/bundle/ruby/2.7.0/bin
