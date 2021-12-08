@@ -4,6 +4,7 @@ title: "Top Page"
 ---
 
 <main>
+  <h3>Posts</h3>
   <section>
     {% for post in site.posts %}
       <aside>
